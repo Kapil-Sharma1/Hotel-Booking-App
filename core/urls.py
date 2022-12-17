@@ -42,5 +42,11 @@ urlpatterns = [
         view  = include("hotel_inventory.urls")
     ),
 
+      #/============================= booking URLs ====================/ #
+    path(
+        route = 'api/booking/',
+        view  = include("booking.urls")
+    ),
+
 
 ]
