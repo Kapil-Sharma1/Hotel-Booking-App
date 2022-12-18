@@ -29,7 +29,8 @@ class Bookings(UUIDMixin, TimeStampedModel):
 
     booking_status = models.CharField(
         max_length=50,
-        choices=booking_status_choice.choices
+        choices=booking_status_choice.choices,
+        default=booking_status_choice.BOOKED.value
     )
 
 
