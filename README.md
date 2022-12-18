@@ -12,7 +12,9 @@ A RESTful backend application for keeping inventory of hotel rooms and for users
 
 - Admin panel to manage Users, Staff, Hotels, Rooms, Booking, BookingInfo
 - Register, Login, Logout functionalities with JWT 
+- Admin can create , update, delete Hotels and Rooms.
 - Users can see Hotels list , hotel rooms of various type and prices available like Single , Double, triple and quad etc.
-- Users can book rooms of  with checkin, checkout date.
+- Users can book rooms with checkin, checkout date.
+- Users can also update their bookings
 - Users can see their booking details.
 - Permissions for handling security.
