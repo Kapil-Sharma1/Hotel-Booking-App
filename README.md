@@ -11,7 +11,7 @@ A RESTful backend application for keeping inventory of hotel rooms and for users
     
 ## Features
 
-- Admin panel to manage Users, Staff, Categories, Products, Cart, Orders, OrderInfo
+- Admin panel to manage Users, Staff, Hotels, Rooms, Booking, BookingInfo
 - Register, Login, Logout functionalities with JWT 
-- Users can see their order details.
+- Users can see their booking details.
 - Permissions for handling security.
